@@ -1,36 +1,31 @@
-# Exam Score Predictor (Machine Learning)
+# Exam Score Predictor (Machine Learning Project)
 
-This project uses Multiple Linear Regression to predict exam scores based on:
+This is a simple Machine Learning project built using Python and Linear Regression.
 
-- Study hours
-- Sleep hours
+## Project Description
+The model predicts a student's exam score based on:
+- Study Hours
+- Sleep Hours
 
-## Project Overview
-
-The model is trained using scikit-learn and follows the equation:
-
-Score = m1*(Study Hours) + m2*(Sleep Hours) + b
-
-The model is evaluated using the R² score to measure performance.
-
-## Features
-
-- Multiple Linear Regression
-- Model evaluation (R² score)
-- Modular and clean Python structure
-- User input prediction system
+It uses the Linear Regression algorithm from scikit-learn.
 
 ## Technologies Used
-
 - Python
 - NumPy
-- scikit-learn
+- Scikit-learn
 
-## How to Run
+## How It Works
+1. A dataset of study hours and sleep hours is created.
+2. A Linear Regression model is trained.
+3. The user enters their study and sleep hours.
+4. The model predicts the exam score.
 
-1. Install dependencies:
-   pip install numpy scikit-learn
+## Example
+Enter study hours: 5  
+Enter sleep hours: 6  
 
-2. Run the program:
-   py main.py
-   
+Predicted exam score: 60
+
+## Author
+Prapty
+Computer Science Student
